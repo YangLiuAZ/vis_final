@@ -1,0 +1,105 @@
+\begin{thebibliography}{1}
+
+\bibitem{levoy:1989:DSV}
+\href{http://www.cs.unc.edu/techreports/89-022.pdf}{M.~Levoy}.
+\newblock \href{http://www.cs.unc.edu/techreports/89-022.pdf}{{\em Display of
+  Surfaces from Volume Data}}.
+\newblock \href{http://www.cs.unc.edu/techreports/89-022.pdf}{PhD thesis},
+  \href{http://www.cs.unc.edu/techreports/89-022.pdf}{University of North
+  Carolina at Chapel Hill},
+  \href{http://www.cs.unc.edu/techreports/89-022.pdf}{USA},
+  \href{http://www.cs.unc.edu/techreports/89-022.pdf}{1989}.
+
+\bibitem{Lorensen:1987:MCA}
+\href{http://dx.doi.org/10.1145/37402.37422}{W.~E. Lorensen and H.~E. Cline}.
+\newblock \href{http://dx.doi.org/10.1145/37402.37422}{Marching cubes: A high
+  resolution {3D} surface construction algorithm}.
+\newblock \href{http://dx.doi.org/10.1145/37402.37422}{{\em SIGGRAPH Computer
+  Graphics}}, \href{http://dx.doi.org/10.1145/37402.37422}{21(4):163--169},
+  \href{http://dx.doi.org/10.1145/37402.37422}{Aug. 1987}.
+  \href{http://dx.doi.org/10.1145/37402.37422}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1145\discretionary{/}{%
+}{/}37402\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}37422}}}
+
+
+\bibitem{Moritz:2015:EuroVis}
+\href{http://dx.doi.org/10.1111/cgf.12619}{D.~Moritz, D.~Halperin, B.~Howe, and
+  J.~Heer}.
+\newblock \href{http://dx.doi.org/10.1111/cgf.12619}{Perfopticon: Visual query
+  analysis for distributed databases}.
+\newblock \href{http://dx.doi.org/10.1111/cgf.12619}{In {\em Proceedings of the
+  2015 Eurographics Conference on Visualization}},
+  \href{http://dx.doi.org/10.1111/cgf.12619}{EuroVis '15},
+  \href{http://dx.doi.org/10.1111/cgf.12619}{pp. 71--80}.
+  \href{http://dx.doi.org/10.1111/cgf.12619}{Eurographics Association},
+  \href{http://dx.doi.org/10.1111/cgf.12619}{Aire-la-Ville, Switzerland,
+  Switzerland}, \href{http://dx.doi.org/10.1111/cgf.12619}{2015}.
+  \href{http://dx.doi.org/10.1111/cgf.12619}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}12619}}}
+
+
+\bibitem{Nielson:1991:TAD}
+\href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{G.~M. Nielson and
+  B.~Hamann}.
+\newblock \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{The asymptotic
+  decider: Removing the ambiguity in marching cubes}.
+\newblock \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{In {\em Proc.\
+  Visualization}}, \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{pp.
+  83--91}. \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{IEEE Computer
+  Society}, \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{Los Alamitos},
+  \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{1991}.
+  \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}VISUAL\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1991\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}175782}}}
+
+
+\bibitem{Sambasivan:2013:InfoVis}
+\href{http://dx.doi.org/10.1109/TVCG.2013.233}{R.~Sambasivan, I.~Shafer,
+  M.~Mazurek, and G.~Ganger}.
+\newblock \href{http://dx.doi.org/10.1109/TVCG.2013.233}{Visualizing
+  request-flow comparison to aid performance diagnosis in distributed systems}.
+\newblock \href{http://dx.doi.org/10.1109/TVCG.2013.233}{{\em IEEE Transactions
+  on Visualization and Computer Graphics}},
+  \href{http://dx.doi.org/10.1109/TVCG.2013.233}{19(12):2466--2475},
+  \href{http://dx.doi.org/10.1109/TVCG.2013.233}{2013}.
+  \href{http://dx.doi.org/10.1109/TVCG.2013.233}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2013\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}233}}}
+
+
+\bibitem{ware:2004:IVP}
+\href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{C.~Ware}.
+\newblock \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{{\em
+  Information Visualization: Perception for Design}}.
+\newblock \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{Morgan
+  Kaufmann Publishers Inc.},
+  \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{San Francisco},
+  \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{2\textsuperscript{nd}
+  ed.}, \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{2004}.
+  \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1016\discretionary{/}{%
+}{/}B978\discretionary{%
+}{-}{-}155860819\discretionary{%
+}{-}{-}1\discretionary{/}{%
+}{/}50001\discretionary{%
+}{-}{-}7}}}
+
+
+\end{thebibliography}

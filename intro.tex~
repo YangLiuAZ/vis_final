@@ -1,5 +1,5 @@
 % Introduction and/or Motivation
-
+\label{sec:myintro}
 Navigating the curriculum of educational institution, fulfilling prerequisite and choosing between course options has been a feature of the educational environment dating back to Plato’s inscription ``Let no one ignorant of geometry enter!'' inscribed at the entrance of his academy~\cite{anglin1994mathematics}. In efforts to remain competitive, course options at institutes of higher learning have exploded, often offering hundreds of course possibilities that satisfy their general education requirements~\cite{schwartz2009paradox}.
 
 The real world scene is that coursework contents can be related, making one course as the prerequisite of the other will help students better learn knowledge and obtain better grades. Academic advisor, for example, deals with these issues a lot.

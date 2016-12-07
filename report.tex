@@ -47,7 +47,7 @@
 \vgtccategory{Research}
 
 %% Paper title.
-\title{Coursim: A Tool For Detecting Course Similarity}
+\title{Coursim: A Tool For Detecting Course Dependency}
 
 %% This is how authors are specified in the journal style
 
@@ -64,10 +64,11 @@
 
 %% Abstract section.
 \abstract{
+Course Dependency can greatly affect a student's grade because of their content. Making one course the prerequisite of another may improve the student's performance in the latter course dramatically. But given the vast number of courses in a university, finding a good prerequisite calls for expertise in all the courses. It's a challenge for not only the student herself, but sometimes the academic advisor if he happens to know little about the particular course. 
 
-CHANGE ME: Abstract goes here. It should briefly explain the problem, the big
-picture of what was done to solve it, and the highlights of the results.
+We proposed to compare students' historical grades to see the effect of setting prerequisite course. The visualization tool will use this as the weight in the correlation matrix. The tool includes a main view that shows the global relationship between each pair of courses, and a side view that shows details of one particular pair chosen by user.
 
+We haven't got to the evaluation part yet. Plans will be discussed in Section~\ref{sec:vis}
 } % end of abstract
 
 %% Keywords that describe your work. Will show as 'Index Terms' in journal
@@ -113,13 +114,8 @@ picture of what was done to solve it, and the highlights of the results.
 
 
 \firstsection{Introduction} % or "Motivation"
-
+\label{sec:myintro}
 \maketitle
-
-CHANGE ME: There is not a canonical way to organize the paper -- we've seen
-different styles during this course. You may alter the order to match your
-project. Depending on the project, you may want to split the sections into
-multiple parts.
 
 \input{intro}
 

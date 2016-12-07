@@ -1,105 +1,51 @@
 \begin{thebibliography}{1}
 
-\bibitem{levoy:1989:DSV}
-\href{http://www.cs.unc.edu/techreports/89-022.pdf}{M.~Levoy}.
-\newblock \href{http://www.cs.unc.edu/techreports/89-022.pdf}{{\em Display of
-  Surfaces from Volume Data}}.
-\newblock \href{http://www.cs.unc.edu/techreports/89-022.pdf}{PhD thesis},
-  \href{http://www.cs.unc.edu/techreports/89-022.pdf}{University of North
-  Carolina at Chapel Hill},
-  \href{http://www.cs.unc.edu/techreports/89-022.pdf}{USA},
-  \href{http://www.cs.unc.edu/techreports/89-022.pdf}{1989}.
+\bibitem{anglin1994mathematics}
+\href{https://books.google.com/books?id=13dKav77vGsC}{W.~Anglin}.
+\newblock \href{https://books.google.com/books?id=13dKav77vGsC}{{\em
+  Mathematics: A Concise History and Philosophy: A Concise History and
+  Philosophy}}.
+\newblock \href{https://books.google.com/books?id=13dKav77vGsC}{Readings in
+  Mathematics}. \href{https://books.google.com/books?id=13dKav77vGsC}{Springer
+  New York}, \href{https://books.google.com/books?id=13dKav77vGsC}{1994}.
 
-\bibitem{Lorensen:1987:MCA}
-\href{http://dx.doi.org/10.1145/37402.37422}{W.~E. Lorensen and H.~E. Cline}.
-\newblock \href{http://dx.doi.org/10.1145/37402.37422}{Marching cubes: A high
-  resolution {3D} surface construction algorithm}.
-\newblock \href{http://dx.doi.org/10.1145/37402.37422}{{\em SIGGRAPH Computer
-  Graphics}}, \href{http://dx.doi.org/10.1145/37402.37422}{21(4):163--169},
-  \href{http://dx.doi.org/10.1145/37402.37422}{Aug. 1987}.
-  \href{http://dx.doi.org/10.1145/37402.37422}
+\bibitem{bendakir2006using}
+N.~Bendakir and E.~A{\"\i}meur.
+\newblock Using association rules for course recommendation.
+\newblock In {\em Proceedings of the AAAI Workshop on Educational Data Mining},
+  vol.~3, 2006.
+
+\bibitem{sandvig2005aacorn}
+J.~Sandvig and R.~Burke.
+\newblock Aacorn: A cbr recommender for academic advising.
+\newblock Technical report, Technical Report TR05-015, DePaul University, 2005.
+
+\bibitem{schwartz2009paradox}
+\href{https://books.google.com/books?id=g422yyua-P8C}{B.~Schwartz}.
+\newblock \href{https://books.google.com/books?id=g422yyua-P8C}{{\em The
+  Paradox of Choice: Why More Is Less, Revised Edition}}.
+\newblock \href{https://books.google.com/books?id=g422yyua-P8C}{HarperCollins},
+  \href{https://books.google.com/books?id=g422yyua-P8C}{2009}.
+
+\bibitem{Su:2009:SCF:1592474.1722966}
+\href{http://dx.doi.org/10.1155/2009/421425}{X.~Su and T.~M. Khoshgoftaar}.
+\newblock \href{http://dx.doi.org/10.1155/2009/421425}{A survey of
+  collaborative filtering techniques}.
+\newblock \href{http://dx.doi.org/10.1155/2009/421425}{{\em Adv. in Artif.
+  Intell.}}, \href{http://dx.doi.org/10.1155/2009/421425}{2009:4:2--4:2},
+  \href{http://dx.doi.org/10.1155/2009/421425}{Jan. 2009}.
+  \href{http://dx.doi.org/10.1155/2009/421425}
 {doi: {{%
 10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1145\discretionary{/}{%
-}{/}37402\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}37422}}}
+}{.}\hspace{.4pt}1155\discretionary{/}{%
+}{/}2009\discretionary{/}{%
+}{/}421425}}}
 
 
-\bibitem{Moritz:2015:EuroVis}
-\href{http://dx.doi.org/10.1111/cgf.12619}{D.~Moritz, D.~Halperin, B.~Howe, and
-  J.~Heer}.
-\newblock \href{http://dx.doi.org/10.1111/cgf.12619}{Perfopticon: Visual query
-  analysis for distributed databases}.
-\newblock \href{http://dx.doi.org/10.1111/cgf.12619}{In {\em Proceedings of the
-  2015 Eurographics Conference on Visualization}},
-  \href{http://dx.doi.org/10.1111/cgf.12619}{EuroVis '15},
-  \href{http://dx.doi.org/10.1111/cgf.12619}{pp. 71--80}.
-  \href{http://dx.doi.org/10.1111/cgf.12619}{Eurographics Association},
-  \href{http://dx.doi.org/10.1111/cgf.12619}{Aire-la-Ville, Switzerland,
-  Switzerland}, \href{http://dx.doi.org/10.1111/cgf.12619}{2015}.
-  \href{http://dx.doi.org/10.1111/cgf.12619}
-{doi: {{%
-10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1111\discretionary{/}{%
-}{/}cgf\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}12619}}}
-
-
-\bibitem{Nielson:1991:TAD}
-\href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{G.~M. Nielson and
-  B.~Hamann}.
-\newblock \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{The asymptotic
-  decider: Removing the ambiguity in marching cubes}.
-\newblock \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{In {\em Proc.\
-  Visualization}}, \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{pp.
-  83--91}. \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{IEEE Computer
-  Society}, \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{Los Alamitos},
-  \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}{1991}.
-  \href{http://dx.doi.org/10.1109/VISUAL.1991.175782}
-{doi: {{%
-10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1109\discretionary{/}{%
-}{/}VISUAL\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1991\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}175782}}}
-
-
-\bibitem{Sambasivan:2013:InfoVis}
-\href{http://dx.doi.org/10.1109/TVCG.2013.233}{R.~Sambasivan, I.~Shafer,
-  M.~Mazurek, and G.~Ganger}.
-\newblock \href{http://dx.doi.org/10.1109/TVCG.2013.233}{Visualizing
-  request-flow comparison to aid performance diagnosis in distributed systems}.
-\newblock \href{http://dx.doi.org/10.1109/TVCG.2013.233}{{\em IEEE Transactions
-  on Visualization and Computer Graphics}},
-  \href{http://dx.doi.org/10.1109/TVCG.2013.233}{19(12):2466--2475},
-  \href{http://dx.doi.org/10.1109/TVCG.2013.233}{2013}.
-  \href{http://dx.doi.org/10.1109/TVCG.2013.233}
-{doi: {{%
-10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1109\discretionary{/}{%
-}{/}TVCG\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}2013\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}233}}}
-
-
-\bibitem{ware:2004:IVP}
-\href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{C.~Ware}.
-\newblock \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{{\em
-  Information Visualization: Perception for Design}}.
-\newblock \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{Morgan
-  Kaufmann Publishers Inc.},
-  \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{San Francisco},
-  \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{2\textsuperscript{nd}
-  ed.}, \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}{2004}.
-  \href{http://dx.doi.org/10.1016/B978-155860819-1/50001-7}
-{doi: {{%
-10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1016\discretionary{/}{%
-}{/}B978\discretionary{%
-}{-}{-}155860819\discretionary{%
-}{-}{-}1\discretionary{/}{%
-}{/}50001\discretionary{%
-}{-}{-}7}}}
-
+\bibitem{walshaw2000multilevel}
+C.~Walshaw.
+\newblock A multilevel algorithm for force-directed graph drawing.
+\newblock In {\em International Symposium on Graph Drawing}, pp. 171--182.
+  Springer, 2000.
 
 \end{thebibliography}

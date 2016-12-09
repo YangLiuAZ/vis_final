@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{anglin1994mathematics}
 \href{https://books.google.com/books?id=13dKav77vGsC}{W.~Anglin}.
@@ -14,6 +14,70 @@ N.~Bendakir and E.~A{\"\i}meur.
 \newblock Using association rules for course recommendation.
 \newblock In {\em Proceedings of the AAAI Workshop on Educational Data Mining},
   vol.~3, 2006.
+
+\bibitem{Bostock:2011:DDD:2068462.2068631}
+\href{http://dx.doi.org/10.1109/TVCG.2011.185}{M.~Bostock, V.~Ogievetsky, and
+  J.~Heer}.
+\newblock \href{http://dx.doi.org/10.1109/TVCG.2011.185}{D3 data-driven
+  documents}.
+\newblock \href{http://dx.doi.org/10.1109/TVCG.2011.185}{{\em IEEE Transactions
+  on Visualization and Computer Graphics}},
+  \href{http://dx.doi.org/10.1109/TVCG.2011.185}{17(12):2301--2309},
+  \href{http://dx.doi.org/10.1109/TVCG.2011.185}{Dec. 2011}.
+  \href{http://dx.doi.org/10.1109/TVCG.2011.185}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2011\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}185}}}
+
+
+\bibitem{du2016vis}
+F.~Du, C.~Plaisant, N.~Spring, and B.~Shneiderman.
+\newblock Eventaction: Visual analytics for temporal event sequence
+  recommendation.
+\newblock In {\em Proceedings of the IEEE Visual Analytics Science and
+  Technology}, VAST '16, pp. 1--10. IEEE, 2016.
+
+\bibitem{Ghoniem:2004:CRG:1038262.1038777}
+\href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{M.~Ghoniem, J.-D. Fekete, and
+  P.~Castagliola}.
+\newblock \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{A comparison of the
+  readability of graphs using node-link and matrix-based representations}.
+\newblock \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{In {\em Proceedings
+  of the IEEE Symposium on Information Visualization}},
+  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{INFOVIS '04},
+  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{pp. 17--24}.
+  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{IEEE Computer Society},
+  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{Washington, DC, USA},
+  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{2004}.
+  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}INFOVIS\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2004\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1}}}
+
+
+\bibitem{Reingold:1981:TDT:1313316.1313481}
+\href{http://dx.doi.org/10.1109/TSE.1981.234519}{E.~M. Reingold and J.~S.
+  Tilford}.
+\newblock \href{http://dx.doi.org/10.1109/TSE.1981.234519}{Tidier drawings of
+  trees}.
+\newblock \href{http://dx.doi.org/10.1109/TSE.1981.234519}{{\em IEEE Trans.
+  Softw. Eng.}},
+  \href{http://dx.doi.org/10.1109/TSE.1981.234519}{7(2):223--228},
+  \href{http://dx.doi.org/10.1109/TSE.1981.234519}{Mar. 1981}.
+  \href{http://dx.doi.org/10.1109/TSE.1981.234519}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TSE\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1981\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}234519}}}
+
 
 \bibitem{sandvig2005aacorn}
 J.~Sandvig and R.~Burke.
@@ -41,6 +105,20 @@ J.~Sandvig and R.~Burke.
 }{/}2009\discretionary{/}{%
 }{/}421425}}}
 
+
+\bibitem{VanHam:2003:UMC:1947368.1947409}
+\href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{F.~Van~Ham}.
+\newblock \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{Using
+  multilevel call matrices in large software projects}.
+\newblock \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{In {\em
+  Proceedings of the Ninth Annual IEEE Conference on Information
+  Visualization}},
+  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{INFOVIS'03},
+  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{pp. 227--232}.
+  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{IEEE Computer
+  Society},
+  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{Washington, DC,
+  USA}, \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{2003}.
 
 \bibitem{walshaw2000multilevel}
 C.~Walshaw.

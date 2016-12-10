@@ -33,9 +33,9 @@ We removed courses and corresponding records which less than 10 students take in
 
 \subsection{Adjacency Matrix View}
 \label{sec:matrix}
-The Adjacency Matrix view enables users to grasp a global view of the all the courses. We use D3 ~\cite{Change Me}. Each grid in the matrix represents the potential benefits the column course may get from the row course. Each row shows that, for a specific course, all the courses it may have a positive influence on. Each column depicts that, for a chosen course, all the courses which may benefit it. We build a mouse over in this view, when the users move their mouse on the grid, the column and the row associated with that gird chosen will be highlighted with a bold border which will make it easier to obverse the column and the row. The view also consists a zoomable and navigation feature which can be used to filter the uninterested data based on the demand. 
+The Adjacency Matrix view enables users to grasp a global view of the all the courses. We use D3 library which contains the existing adjacency matrix template~\cite{Bostock:2011:DDD:2068462.2068631}. Each grid in the matrix represents the potential benefits the column course may get from the row course. Each row shows that, for a specific course, all the courses it may have a positive influence on. Each column depicts that, for a chosen course, all the courses which may benefit it. We build a mouse over in this view, when the users move their mouse on the grid, the column and the row associated with that gird chosen will be highlighted with a bold border which will make it easier to obverse the column and the row. The view also consists a zoomable and navigation feature which can be used to filter the uninterested data based on the demand. 
 
-Adjacency Matrix view can clearly show the every possible connection between each pair of courses. Compared to node-link diagram or dagre layout {Change Me}, it has obvious advantages in terms of recognition and orientation. When the size of the data get big, the force-directed node link diagram or dagre layout will include a lot of cross edges and become messy. It is hard for users to localize the actual pair of courses they want, and identify the actual relations between them. But adjacency matrix can always navigate users to the right pair of data and is easy for users to explore the data set and find interesting patterns. 
+Adjacency Matrix view can clearly show the every possible connection between each pair of courses. Compared to node-link diagram or dagre layout~\cite{Bostock:2011:DDD:2068462.2068631}, it has obvious advantages in terms of recognition and orientation. When the size of the data get big, the force-directed node link diagram or dagre layout will include a lot of cross edges and become messy. It is hard for users to localize the actual pair of courses they want, and identify the actual relations between them. But adjacency matrix can always navigate users to the right pair of data and is easy for users to explore the data set and find interesting patterns. 
 
 The color scale ranging from white to dark red indicates the similarity between each pair of courses. White grids mean either there are less than 10 students or the influence the one course has on the later course is negative. We talk about how we calculate the similarities measurement in the next section.
 \begin{figure}[h]
@@ -58,13 +58,39 @@ In order to avoid the two problems mentioned above, we introduce a new benefit m
 \begin{figure}[h]
 	\centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
 	\includegraphics[width=\columnwidth]{figs/measure} 
-	\caption{Our method based on item-based recommender system, Pre1 clearly benefit with a benefit beachmark 9.6}
+	\caption{Our method based on item-based recommender system, Pre1 clearly benefit Course1 with a beachmark 9.6}
 	\label{fig:sample}
 \end{figure}
 
+From Fig. 6, we can clearly see that most of the 10 students who have taken both Pre1 before Course1 have better actual scores than the prediction which is based on the overall performance. In other words, compared with the students whose overall performance is similar but without taking Pre1, these students have gotten 9.6 more points on Course1 averagely, which is a great improvment. Therefore we can say, Pre1 should benefit Course1 even without knowing the contents of both two courses.
 
+This new measurement gives us a better way to measure the actual benefits a course may give to the other. In stead of using Pearsonal Corrleations, it is a more solid way because it can tolerate the influence of the students’ consisitent performance and also avoid the direct comparsion using scores of different courses. Using this method, we get a much better distribution of the overall benefits measurement. Specifically,  for the computer science department, there are 1191 pairs of courses have benefit benchmarks.The benefits points range from -17.9 to 12.6(Fig 7). Minus points mean the negative influence and positive points mean active influence. In the current version of our adjacency matrix , we ignore the negative points, which we also also color it as a difference color. This maybe one of our future work.
+\begin{figure}[h]
+	\centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+	\includegraphics[width=\columnwidth]{figs/markdistribution} 
+	\caption{The distribution of benefits benchmarks for CS courses, ranging from -17.9 to 12.6,bigger the number, more benefits may exit}
+	\label{fig:sample}
+\end{figure}
 
+\subsection{Bar Chart View}
+\label{sec:bar}
+The bar chart view details the course users are interested in. The interaction is built between the adjacency matrix and the bar chart. When the user finds one course he is interested and wants to see all the courses may benefit this course. They can click on any grid along the column of that course. The bar chart will pop up. It reveal the top 10 courses which may benefits the selected course and order them by the benefit benchmarks. The color of each bar is the same as the corresponding grid in the adjacency matrix to make sure the consistency and.  This style avoid the possible confusion when users are navigating to the bar chart view. Using this bar chart view, users can easily find out for the specific course, which one has the highest benefit benchmark. Also, for a pair of courses, what’s the rank of the pre-course, is that actually a good choice? The view helps users to figure out these problems and make good decision for choosing good prerequisites. 
+\begin{figure}[h]
+	\centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+	\includegraphics[width=\columnwidth]{figs/barchart} 
+	\caption{Bar chart view for course CS482}
+	\label{fig:sample}
+\end{figure}
 
+\subsection{Parallel Coordinates View}
+\label{sec:parallel}
+For a pair of courses we are interested in,  we use a parallel coordinates graph to show the specific grades changes for students who have taken both courses. Each line’s start point is the score that a student gets in the previous course, and the end point is the score the same students gets in the later course. The interaction is build between the adjacency matrix and the parallel coordinates. When a gird is clicked, a parallel coordinates will be shown in this view. Instead of focusing on the course level and getting a summarized benchmark  for each pair of courses. The parallel coordinates will allow users to explore the details and show all the trends of each student’s performance between theses two courses. Users can clearly observe the changes of each student which can be  a good reference when they are considering the benefit between two courses. For example ,from Fig. 9, the overall benefit CS240 may bring to CS492 is high positive. But we can also find some obvious outliners: a student getting almost 98 points gets 65 in the CS492, another student whose score for CS240 is 78 ends up getting 8 points in CS492. These are some anomalies which users can easily find out with the parallel coordinates. Fo r the future work, different colors are utilized to show the grade section for the course. And we also need to build  interaction between bar chart and parallel coordinates.
+\begin{figure}[h]
+	\centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+	\includegraphics[width=\columnwidth]{figs/parallel} 
+	\caption{Parallel coordinates graph for CS240-CS492}
+	\label{fig:sample}
+\end{figure}
 
 %\begin{figure*}[h]
 % \centering 

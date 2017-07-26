@@ -1,19 +1,22 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
-\bibitem{anglin1994mathematics}
-\href{https://books.google.com/books?id=13dKav77vGsC}{W.~Anglin}.
-\newblock \href{https://books.google.com/books?id=13dKav77vGsC}{{\em
-  Mathematics: A Concise History and Philosophy: A Concise History and
-  Philosophy}}.
-\newblock \href{https://books.google.com/books?id=13dKav77vGsC}{Readings in
-  Mathematics}. \href{https://books.google.com/books?id=13dKav77vGsC}{Springer
-  New York}, \href{https://books.google.com/books?id=13dKav77vGsC}{1994}.
+\bibitem{Biswas:2013:AIFEMDS:1077-2626}
+\href{http://dx.doi.org/10.1109/TVCG.2013.133}{A.~Biswas, S.~Dutta, H.-W. Shen,
+  and J.~Woodring}.
+\newblock \href{http://dx.doi.org/10.1109/TVCG.2013.133}{An information-aware
+  framework for exploring multivariate data sets}.
+\newblock \href{http://dx.doi.org/10.1109/TVCG.2013.133}{{\em IEEE Transactions
+  on Visualization and Computer Graphics}},
+  \href{http://dx.doi.org/10.1109/TVCG.2013.133}{19(12):2683 -- 2692},
+  \href{http://dx.doi.org/10.1109/TVCG.2013.133}{Dec. 2013}.
+  \href{http://dx.doi.org/10.1109/TVCG.2013.133}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2013\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}133}}}
 
-\bibitem{bendakir2006using}
-N.~Bendakir and E.~A{\"\i}meur.
-\newblock Using association rules for course recommendation.
-\newblock In {\em Proceedings of the AAAI Workshop on Educational Data Mining},
-  vol.~3, 2006.
 
 \bibitem{Bostock:2011:DDD:2068462.2068631}
 \href{http://dx.doi.org/10.1109/TVCG.2011.185}{M.~Bostock, V.~Ogievetsky, and
@@ -33,97 +36,43 @@ N.~Bendakir and E.~A{\"\i}meur.
 }{.}\hspace{.4pt}185}}}
 
 
-\bibitem{du2016vis}
-F.~Du, C.~Plaisant, N.~Spring, and B.~Shneiderman.
-\newblock Eventaction: Visual analytics for temporal event sequence
-  recommendation.
-\newblock In {\em Proceedings of the IEEE Visual Analytics Science and
-  Technology}, VAST '16, pp. 1--10. IEEE, 2016.
-
-\bibitem{Ghoniem:2004:CRG:1038262.1038777}
-\href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{M.~Ghoniem, J.-D. Fekete, and
-  P.~Castagliola}.
-\newblock \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{A comparison of the
-  readability of graphs using node-link and matrix-based representations}.
-\newblock \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{In {\em Proceedings
-  of the IEEE Symposium on Information Visualization}},
-  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{INFOVIS '04},
-  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{pp. 17--24}.
-  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{IEEE Computer Society},
-  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{Washington, DC, USA},
-  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}{2004}.
-  \href{http://dx.doi.org/10.1109/INFOVIS.2004.1}
+\bibitem{Chourasia:2007:DRS:1247238.1247243}
+\href{http://dx.doi.org/10.1145/1247238.1247243}{A.~Chourasia}.
+\newblock \href{http://dx.doi.org/10.1145/1247238.1247243}{Digital re-creation
+  of a seven-story building shake during an earthquake}.
+\newblock \href{http://dx.doi.org/10.1145/1247238.1247243}{{\em Crossroads}},
+  \href{http://dx.doi.org/10.1145/1247238.1247243}{13(3):5--5},
+  \href{http://dx.doi.org/10.1145/1247238.1247243}{Mar. 2007}.
+  \href{http://dx.doi.org/10.1145/1247238.1247243}
 {doi: {{%
 10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1109\discretionary{/}{%
-}{/}INFOVIS\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}2004\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1}}}
+}{.}\hspace{.4pt}1145\discretionary{/}{%
+}{/}1247238\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1247243}}}
 
 
-\bibitem{Reingold:1981:TDT:1313316.1313481}
-\href{http://dx.doi.org/10.1109/TSE.1981.234519}{E.~M. Reingold and J.~S.
-  Tilford}.
-\newblock \href{http://dx.doi.org/10.1109/TSE.1981.234519}{Tidier drawings of
-  trees}.
-\newblock \href{http://dx.doi.org/10.1109/TSE.1981.234519}{{\em IEEE Trans.
-  Softw. Eng.}},
-  \href{http://dx.doi.org/10.1109/TSE.1981.234519}{7(2):223--228},
-  \href{http://dx.doi.org/10.1109/TSE.1981.234519}{Mar. 1981}.
-  \href{http://dx.doi.org/10.1109/TSE.1981.234519}
-{doi: {{%
-10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1109\discretionary{/}{%
-}{/}TSE\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1981\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}234519}}}
+\bibitem{DBLP:journals/corr/abs-cs-0610033}
+\href{http://arxiv.org/abs/cs/0610033}{M.~Cuturi, J.~Vert, O.~Birkenes, and
+  T.~Matsui}.
+\newblock \href{http://arxiv.org/abs/cs/0610033}{A kernel for time series based
+  on global alignments}.
+\newblock \href{http://arxiv.org/abs/cs/0610033}{{\em CoRR}},
+  \href{http://arxiv.org/abs/cs/0610033}{abs/cs/0610033},
+  \href{http://arxiv.org/abs/cs/0610033}{2006}.
 
-
-\bibitem{sandvig2005aacorn}
-J.~Sandvig and R.~Burke.
-\newblock Aacorn: A cbr recommender for academic advising.
-\newblock Technical report, Technical Report TR05-015, DePaul University, 2005.
-
-\bibitem{schwartz2009paradox}
-\href{https://books.google.com/books?id=g422yyua-P8C}{B.~Schwartz}.
-\newblock \href{https://books.google.com/books?id=g422yyua-P8C}{{\em The
-  Paradox of Choice: Why More Is Less, Revised Edition}}.
-\newblock \href{https://books.google.com/books?id=g422yyua-P8C}{HarperCollins},
-  \href{https://books.google.com/books?id=g422yyua-P8C}{2009}.
-
-\bibitem{Su:2009:SCF:1592474.1722966}
-\href{http://dx.doi.org/10.1155/2009/421425}{X.~Su and T.~M. Khoshgoftaar}.
-\newblock \href{http://dx.doi.org/10.1155/2009/421425}{A survey of
-  collaborative filtering techniques}.
-\newblock \href{http://dx.doi.org/10.1155/2009/421425}{{\em Adv. in Artif.
-  Intell.}}, \href{http://dx.doi.org/10.1155/2009/421425}{2009:4:2--4:2},
-  \href{http://dx.doi.org/10.1155/2009/421425}{Jan. 2009}.
-  \href{http://dx.doi.org/10.1155/2009/421425}
-{doi: {{%
-10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1155\discretionary{/}{%
-}{/}2009\discretionary{/}{%
-}{/}421425}}}
-
-
-\bibitem{VanHam:2003:UMC:1947368.1947409}
-\href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{F.~Van~Ham}.
-\newblock \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{Using
-  multilevel call matrices in large software projects}.
-\newblock \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{In {\em
-  Proceedings of the Ninth Annual IEEE Conference on Information
-  Visualization}},
-  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{INFOVIS'03},
-  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{pp. 227--232}.
-  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{IEEE Computer
-  Society},
-  \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{Washington, DC,
-  USA}, \href{http://dl.acm.org/citation.cfm?id=1947368.1947409}{2003}.
-
-\bibitem{walshaw2000multilevel}
-C.~Walshaw.
-\newblock A multilevel algorithm for force-directed graph drawing.
-\newblock In {\em International Symposium on Graph Drawing}, pp. 171--182.
-  Springer, 2000.
+\bibitem{conf/icml/KondorJ03}
+\href{http://dblp.uni-trier.de/db/conf/icml/icml2003.html#KondorJ03}{R.~Kondor
+  and T.~Jebara}.
+\newblock
+  \href{http://dblp.uni-trier.de/db/conf/icml/icml2003.html#KondorJ03}{A kernel
+  between sets of vectors.}
+\newblock
+  \href{http://dblp.uni-trier.de/db/conf/icml/icml2003.html#KondorJ03}{In
+  T.~Fawcett and N.~Mishra, eds., {\em ICML}},
+  \href{http://dblp.uni-trier.de/db/conf/icml/icml2003.html#KondorJ03}{pp.
+  361--368}.
+  \href{http://dblp.uni-trier.de/db/conf/icml/icml2003.html#KondorJ03}{AAAI
+  Press},
+  \href{http://dblp.uni-trier.de/db/conf/icml/icml2003.html#KondorJ03}{2003}.
 
 \end{thebibliography}

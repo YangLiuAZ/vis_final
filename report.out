@@ -1,14 +1,3 @@
 \BOOKMARK [1][]{section.2}{Introduction}{}% 1
-\BOOKMARK [1][]{section.4}{Background}{}% 2
-\BOOKMARK [1][]{section.7}{Related Work}{}% 3
-\BOOKMARK [1][]{section.8}{Visual Design}{}% 4
-\BOOKMARK [2][]{subsection.9}{Data Processing}{section.8}% 5
-\BOOKMARK [2][]{subsection.11}{Adjacency Matrix View}{section.8}% 6
-\BOOKMARK [2][]{subsection.13}{Benefits Measurement}{section.8}% 7
-\BOOKMARK [2][]{subsection.16}{Bar Chart View}{section.8}% 8
-\BOOKMARK [2][]{subsection.18}{Parallel Coordinates View}{section.8}% 9
-\BOOKMARK [1][]{section.20}{Evaluation}{}% 10
-\BOOKMARK [2][]{subsection.21}{Usage Scenario}{section.20}% 11
-\BOOKMARK [2][]{subsection.22}{Evaluation Plan}{section.20}% 12
-\BOOKMARK [1][]{section.23}{Discussion}{}% 13
-\BOOKMARK [1][]{section.24}{Conclusion and Future Directions}{}% 14
+\BOOKMARK [1][]{section.4}{Related Work}{}% 2
+\BOOKMARK [1][]{section.5}{Ongoing work}{}% 3

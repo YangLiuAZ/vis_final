@@ -1,25 +1,7 @@
-\section{Conclusion and Future Directions}
+\paragraph*{Ongoing work}
 \label{sec:conclusion}
 
-Now let's review our tasks listed in Section 1. For task 1, we carefully grouped students to compare courses with only related students. For task 2, we tried standard force-directed layout and several kinds of filtering and decided to use adjacency matrix. For task 3, a recommender system is built to predict benefit of course A as the prerequisite of B.
+%% Now let's review our tasks listed in Section 3. For task 1, we applied a NLP model and different kernel methods to summary the simulations as much as we can to get a overview quantitatively. For task 2, we build a context visulazation to illustrate the details of the specific simulation. The design principle of this view is to remain the ground truth as much as possible. For task3, we follow the focus and context design, which allows user to spot the earthquake simulation they are interested and explore it in the context view. The prototype looks promising for now, since it provides a way to explore the whole earthquake dataset. In the meanwhile, there are  a lot of points for us to complete.
 
-The prototype looks promising for now, since it reveals that our initial prediction of matrix layout is wrong. This means that it is likely to be wiser than our intuition. We thus conclude that the project is successful. 
-
-For the work we should do but don't have time.
-\begin{itemize}
-\item Lock/unlock the bar chart and slope chart on mouse click. When the side views are unlocked, they are updated as mouse moves over the matrix cells.
-
-\item Incorporate color map to show negative values in the matrix. In prototype, a negative is not drawn as if two courses don't share common students.
-
-\item Compare students taking A and B with students taking A but not B. This should appear as another side view near the slope chart. In prototype, user can only see students taking A and B.
-
-\item Add interaction between slope chart and bar chart. If user clicks on one bar in the bar chart, the slope chart should show the corresponding cell in the matrix. In prototype, user has to find the cell by eye and click it to update the slope chart.
-\end{itemize}
-For the work we leave as future directions.
-\begin{itemize}
-\item Even with the adjacency matrix representation, the screen gets filled up when we study courses at university wide level. That brings us to focus on courses from one department only(a kind of filtering). Perhaps a selection box be added to support data for other department in future. It is also worth considering, if other selection, aggregation methods exist to show more data in the screen.
-\item Some universities use letters instead of scores, for scalability, a future work should be carried on how to deal with the grade without scores
-\item Show the bar chart of the students who don't take the pre-course for comparison
-\item Also a formal evaluation as discussed already should be carried out. 
-\item Instead of showing just Major+Number as the course ID, we also want to include the course name and a brief introduction of the course so that users will know which course it actually is.
-\end{itemize}
+Even with the matrix diagram visualizations, the screen becomes cluttered as the number of simulation gets larger. In the future, when we get thousands of simulations, the matrix diagram will not scale. It is also worth considering if it's possible to cluster earthquakes hierarchically to maintain visual scalability. The way we choose periods for segmentation is also clearly inappropriate; we are currently investigating how to enable our machine learning methods with multiple overlapping motifs.
+Finally, even though we have worked with domain experts in developing these tools, a thorough validation of the designs remains to be done.

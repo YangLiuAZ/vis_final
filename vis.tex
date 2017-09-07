@@ -3,10 +3,13 @@
 
 Our ultimate goal is to build infrastructure to enable civil engineers to visually compare these multi-variate temporal data. In collaboration with the domain experts, we arrived at the following visualization tasks:
 \begin{itemize}
-	\item [T1] An overview which summarizes all the earthquake simulations and can help them spotting outliers;
-	\item [T2] For a specific earthquake simulation, a context view to explore the multivariate dataset and help engineers find interesting patterns across time;
-	\item [T3] For the two views above, build efficient navigation and interaction between them;
-        \item [T4] When an interesting event is identified, it should be possible to find similar events on other simulations, so the context in which these events happened can be compared.
+	\item [T1]  Summarize all the earthquakes simulations to help engineers make scientific and quantitative comparisons between them; 
+	\item [T2] For a specific earthquake simulation, explore the multivariate data and spot interesting patterns;
+	\item [T3] When an interesting event is identified, obtain similar events on other simulations, so the context in which these events happened can be compared.
+	%%\item [T1] An overview which summarizes all the earthquake simulations and can help them spotting outliers;
+	%%\item [T2] For a specific earthquake simulation, a context view to explore the multivariate dataset and help engineers find interesting patterns across time;
+	%%\item [T3] For the two views above, build efficient navigation and interaction between them;
+        %%\item [T4] When an interesting event is identified, it should be possible to find similar events on other simulations, so the context in which these events happened can be compared.
 \end{itemize} 
 
 
@@ -21,7 +24,7 @@ Our ultimate goal is to build infrastructure to enable civil engineers to visual
 
 Towards this end, we built a prototype interface using 50 of the available earthquake simulations.
 The simulations track 6 physical attributes of interest, for each floor: acceleration, shear, diaphragm force, moment, drift ratio, and interstory drift ratio. For example, shear measures the stress parallel to each floor, while interstory drift ratio measures the positional difference between two adjacent floors at a given point in time. 
-This gives a vector-valued time series for each attribute, and each simulation has $25,000$ time steps.
+This gives a vector-valued time series for each attribute, and each simulation has $25,000$ time steps in average.
 Each attribute is normalized by dividing the raw value by a predetermined design limit. This has the benefit that any value of the time series above 1 or below negative 1 indicate that the building is operating out of its safe design specifications, and mitigates the issue of comparing variables of different units.
 
 \paragraph*{Implementation details}
@@ -45,7 +48,7 @@ A different view (left part of Fig. 1) organizes the entire dataset more abstrac
 %TODO: add formula
 \paragraph*{Matrix diagram views}
 \label{matrixvis}
-We use matrix diagrams to visualize both the behavior across earthquakes, and within an earthquake, and use D3's existing matrix diagram infrastructure. Each cell in the across-earthquake matrix represents the similarity between two entire simulations using Bhattacharyya's measure, as described above. In this view, users can select cells in order to show a more detailed comparison of one single earthquake against another (or even against itself), comparing all motifs in one earthquake to all motifs in the other. These two views allow users to explore interesting finding. For example, in Fig. 1A, the fifteenth earthquake is clearly quite dissimilar to all other earthquakes (as evidenced by the mostly-white row of values).
+We use matrix diagrams to visualize both the behavior across earthquakes, and within an earthquake, and use D3's existing matrix diagram infrastructure. Each cell in the across-earthquake matrix represents the similarity between two entire simulations using Bhattacharyya's measure, as described above. In this view, users can select cells in order to show a more detailed comparison of one single earthquake against another (or even against itself), comparing all motifs in one earthquake to all motifs in the other. These two views allow users to explore interesting finding. For example, in Fig. 1A, the eleventh earthquake is clearly quite dissimilar to all other earthquakes (as evidenced by the mostly-white row of values).
 
 %\begin{figure*}[h]
 % \centering 
